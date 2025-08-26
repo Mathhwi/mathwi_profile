@@ -28,7 +28,7 @@ const Hero = () => {
 
             <div className="space-y-2 text-lg text-gray-600">
               <p>010-6661-4332</p>
-              <p>rlarjsgnl@sogang.ac.kr</p>
+              <p>keonhwikim@sogang.ac.kr</p>
             </div>
 
             <div className="space-y-4">
@@ -173,6 +173,11 @@ const Hero = () => {
                 <li>
                   <p className="font-semibold text-lg">Submitted Manuscripts</p>
                   <ul className="ml-5 mt-2 list-disc space-y-3">
+                  <li>
+                      <p>Symmetric Sudoku-Type Games from Perfect Codes</p>
+                      <p className="text-sm italic">Junmin An, Jae-Hyun Baek, Keon-Hwi Kim, Haeun Lim, Jon-Lark Kim</p>
+                      <p className="text-sm">Submitted to IEEE Transactions on Games (August 2025)</p>
+                    </li>
                     <li>
                       <p>Application of TimeGPT for Enhancing Water Level Prediction in Gamcheon River, Korea</p>
                       <p className="text-sm italic">Jon-Lark Kim, Jae-Hyun Baek, Keon-Hwi Kim, Tae-Hyo Baek, Chang-Lae Jang</p>
@@ -202,30 +207,36 @@ const Hero = () => {
                   </thead>
                   <tbody>
                     <tr>
+                      <td className="px-4 py-2">Fall 2025</td>
+                      <td className="px-4 py-2">Industrial Mathematics: Capstone Design (MAT4331-01)</td>
+                      <td className="px-4 py-2">Tue/Thu 12:00-13:15</td>
+                      <td className="px-4 py-2"></td>
+                    </tr>
+                    <tr className="bg-gray-50">
                       <td className="px-4 py-2">Spring 2025</td>
                       <td className="px-4 py-2">Calculus I (STS2005-03)</td>
                       <td className="px-4 py-2">Mon/Wed 10:30-11:45</td>
                       <td className="px-4 py-2">Room J107</td>
                     </tr>
-                    <tr className="bg-gray-50">
+                    <tr>
                       <td className="px-4 py-2">Fall 2024</td>
                       <td className="px-4 py-2">Linear Algebra (MAT2110-02)</td>
                       <td className="px-4 py-2">Tue/Thu 12:00-13:15</td>
                       <td className="px-4 py-2">Room RA310</td>
                     </tr>
-                    <tr>
+                    <tr className="bg-gray-50">
                       <td className="px-4 py-2">Fall 2024</td>
                       <td className="px-4 py-2">Linear Algebra (MAT2110-03)</td>
                       <td className="px-4 py-2">Tue/Thu 15:00-16:15</td>
                       <td className="px-4 py-2">Room RA308</td>
                     </tr>
-                    <tr className="bg-gray-50">
+                    <tr>
                       <td className="px-4 py-2">Spring 2024</td>
                       <td className="px-4 py-2">Calculus I (STS2005-14)</td>
                       <td className="px-4 py-2">Mon/Wed 10:30-11:45</td>
                       <td className="px-4 py-2">Room RA308</td>
                     </tr>
-                    <tr>
+                    <tr className="bg-gray-50">
                       <td className="px-4 py-2">Spring 2024</td>
                       <td className="px-4 py-2">Linear Algebra (MAT2110-02)</td>
                       <td className="px-4 py-2">Mon/Wed 12:00-13:15</td>

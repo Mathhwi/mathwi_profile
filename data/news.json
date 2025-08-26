@@ -5,7 +5,7 @@
     "date": "2024-11-28",
     "summary": "Analyzing the Limitations of Cosine Similarity for High-Dimensional Data and Evaluating DIEM 발표 및 우수논문 선정",
     "image": "/Awards_DIEM.png",
-    "content": "<img src=\"/Awards_DIEM.png\">",
+    "content": "<img src=\"/Awards_DIEM.png\">\nAnalyzing the Limitations of Cosine Similarity for High-Dimensional Data and Evaluating DIEM 발표 및 우수논문 선정",
     "sourceUrl": "https://imds.sogang.ac.kr/front/cmsboardview.do?currentPage=2&searchField=ALL&searchValue=&searchLowItem=ALL&bbsConfigFK=7110&siteId=imds&pkid=916332",
     "images": [
       "/project2.png"
@@ -17,7 +17,7 @@
     "date": "2025-05-13",
     "summary": "2025년 4월 17일(목)부터 18일(금)까지, 서강대학교 수학과는 곤지암 리조트에서 2025-1학기 BK21 성과발표회를 개최하였다. 데이터사이언스 과정에서는 김건휘 석사과정생이 High-dimensional Time Series Classification Based on Similarity Measure 주제로 발표하였다.",
     "image": "/bk_2.jpg",
-    "content": "<img src=\"/bk.jpg\">",
+    "content": "<img src=\"/bk.jpg\">\n2025년 4월 17일(목)부터 18일(금)까지, 서강대학교 수학과는 곤지암 리조트에서 2025-1학기 BK21 성과발표회를 개최하였다. 데이터사이언스 과정에서는 김건휘 석사과정생이 High-dimensional Time Series Classification Based on Similarity Measure 주제로 발표하였다.",
     "sourceUrl": "https://math.sogang.ac.kr/front/cmsboardview.do?currentPage=1&searchField=ALL&searchValue=&searchLowItem=ALL&bbsConfigFK=1947&siteId=math&pkid=922111"
   },
   {
@@ -45,6 +45,15 @@
     "summary": "서강대학교 경제대학원에서 진행된 AI금융 수업에서, 최신 인공지능 응용 기술인 Model Context Protocol(MCP)의 개념과 경제 도메인에서의 활용 가능성에 대한 초청 강연이 진행되었다.",
     "image": "/MCP.png",
     "content": "서강대학교 경제대학원에서 진행된 AI금융 수업에서, 최신 인공지능 응용 기술인 Model Context Protocol(MCP)의 개념과 경제 도메인에서의 활용 가능성에 대한 초청 강연이 진행되었다.\n<img src=\"/Economics.jpg\"> ",
+    "sourceUrl": ""
+  },
+  {
+    "id": "1750930000000",
+    "title": "Anhui University 내 Minjia Shi 교수 연구실 초청 방문 및 발표",
+    "date": "2025-08-16",
+    "summary": "2025년 8월 1일부터 16일까지 안휘대학교(Anhui University) Minjia Shi 교수 연구실을 방문하여 Genetic Algorithms의 연구 동향을 발표하였다. 또한 현재 진행 중인 연구 주제인 \"Solving Sudoku with Evolutionary Algorithms through Iterative Pattern Discovery\"를 소개하고 pattern discovery에 관한 논의를 진행하였다.",
+    "image": "/Anhui_1.jpg",
+    "content": "2025년 8월 1일부터 16일까지 안휘대학교(Anhui University) Minjia Shi 교수 연구실을 방문하여 Genetic Algorithms의 연구 동향을 발표하였다. 또한 현재 진행 중인 연구 주제인 \"Solving Sudoku with Evolutionary Algorithms through Iterative Pattern Discovery\"를 소개하고 pattern discovery에 관한 논의를 진행하였다.\n<img src=\"/Anhui_1.jpg\">\n<img src=\"/Anhui_2.jpg\">",
     "sourceUrl": ""
   }
 ]
