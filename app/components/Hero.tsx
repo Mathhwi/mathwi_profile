@@ -207,40 +207,109 @@ const Hero = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="px-4 py-2">Fall 2025</td>
-                      <td className="px-4 py-2">Industrial Mathematics: Capstone Design (MAT4331-01)</td>
-                      <td className="px-4 py-2">Tue/Thu 12:00-13:15</td>
+                      <td className="px-4 py-2">
+                        <p>Fall</p>
+                        <p>2025</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Industrial Mathematics:</p>
+                        <p>Capstone Design (MAT4331-01)</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Tue/Thu</p>
+                        <p>12:00-13:15</p>
+                      </td>
                       <td className="px-4 py-2"></td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="px-4 py-2">Spring 2025</td>
-                      <td className="px-4 py-2">Calculus I (STS2005-03)</td>
-                      <td className="px-4 py-2">Mon/Wed 10:30-11:45</td>
-                      <td className="px-4 py-2">Room J107</td>
+                      <td className="px-4 py-2">
+                        <p>Spring</p>
+                        <p>2025</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Calculus I</p>
+                        <p>(STS2005-03)</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Mon/Wed</p>
+                        <p>10:30-11:45</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Room</p>
+                        <p>J107</p>
+                      </td>
                     </tr>
                     <tr>
-                      <td className="px-4 py-2">Fall 2024</td>
-                      <td className="px-4 py-2">Linear Algebra (MAT2110-02)</td>
-                      <td className="px-4 py-2">Tue/Thu 12:00-13:15</td>
-                      <td className="px-4 py-2">Room RA310</td>
+                      <td className="px-4 py-2">
+                        <p>Fall</p>
+                        <p>2024</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Linear Algebra</p>
+                        <p>(MAT2110-02)</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Tue/Thu</p>
+                        <p>12:00-13:15</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Room</p>
+                        <p>RA310</p>
+                      </td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="px-4 py-2">Fall 2024</td>
-                      <td className="px-4 py-2">Linear Algebra (MAT2110-03)</td>
-                      <td className="px-4 py-2">Tue/Thu 15:00-16:15</td>
-                      <td className="px-4 py-2">Room RA308</td>
+                      <td className="px-4 py-2">
+                        <p>Fall</p>
+                        <p>2024</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Linear Algebra</p>
+                        <p>(MAT2110-03)</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Tue/Thu</p>
+                        <p>15:00-16:15</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Room</p>
+                        <p>RA308</p>
+                      </td>
                     </tr>
                     <tr>
-                      <td className="px-4 py-2">Spring 2024</td>
-                      <td className="px-4 py-2">Calculus I (STS2005-14)</td>
-                      <td className="px-4 py-2">Mon/Wed 10:30-11:45</td>
-                      <td className="px-4 py-2">Room RA308</td>
+                      <td className="px-4 py-2">
+                        <p>Spring</p>
+                        <p>2024</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Calculus I</p>
+                        <p>(STS2005-14)</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Mon/Wed</p>
+                        <p>10:30-11:45</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Room</p>
+                        <p>RA308</p>
+                      </td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="px-4 py-2">Spring 2024</td>
-                      <td className="px-4 py-2">Linear Algebra (MAT2110-02)</td>
-                      <td className="px-4 py-2">Mon/Wed 12:00-13:15</td>
-                      <td className="px-4 py-2">Room K203</td>
+                      <td className="px-4 py-2">
+                        <p>Spring</p>
+                        <p>2024</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Linear Algebra</p>
+                        <p>(MAT2110-02)</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Mon/Wed</p>
+                        <p>12:00-13:15</p>
+                      </td>
+                      <td className="px-4 py-2">
+                        <p>Room</p>
+                        <p>K203</p>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
