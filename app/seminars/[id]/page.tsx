@@ -53,9 +53,10 @@ const SeminarDetailPage = () => {
           </div>
         )}
 
-        <div className="prose lg:prose-xl max-w-none mb-8">
-          <p className="whitespace-pre-wrap">{seminar.content}</p>
-        </div>
+        <div 
+          className="prose lg:prose-xl max-w-none mb-8"
+          dangerouslySetInnerHTML={{ __html: seminar.content }} 
+        />
 
         {seminar.pdfUrl && (
           <div className="mt-8">
