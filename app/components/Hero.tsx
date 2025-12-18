@@ -64,7 +64,17 @@ const Hero = () => {
               <ul className="space-y-6 text-gray-600">
                 <li>
                   <p className="ml-5 mt-2 list-disc space-y-1">
-                    M.S. in Mathematics & Data Science, Sogang University, (2024–Present)
+                    M.S. in Mathematics, Data Science track, Sogang University, (2024–Present)
+                  </p>
+                  <p className="ml-5 mt-2">
+                    <a 
+                      href="/research_summary.pdf" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 underline text-sm"
+                    >
+                      Research summary
+                    </a>
                   </p>
                 </li>
                 <li>
@@ -181,7 +191,7 @@ const Hero = () => {
                     <li>
                       <p>Application of TimeGPT for Enhancing Water Level Prediction in Gamcheon River, Korea</p>
                       <p className="text-sm italic">Jon-Lark Kim, Jae-Hyun Baek, Keon-Hwi Kim, Tae-Hyo Baek, Chang-Lae Jang</p>
-                      <p className="text-sm">Submitted to IJFIS (January 2025)</p>
+                      <p className="text-sm">Accepted to IJFIS (December 2025)</p>
                     </li>
                     <li>
                       <p>High-Dimensional Time Series Classification Based on Similarity Measure</p>

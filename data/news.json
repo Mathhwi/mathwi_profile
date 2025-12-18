@@ -55,5 +55,14 @@
     "image": "/Anhui_1.jpg",
     "content": "2025년 8월 1일부터 16일까지 안휘대학교(Anhui University) Minjia Shi 교수 연구실을 방문하여 Genetic Algorithms의 연구 동향을 발표하였다. 또한 현재 진행 중인 연구 주제인 \"Solving Sudoku with Evolutionary Algorithms through Iterative Pattern Discovery\"를 소개하고 pattern discovery에 관한 논의를 진행하였다.\n<img src=\"/Anhui_1.jpg\">\n<img src=\"/Anhui_2.jpg\">",
     "sourceUrl": ""
+  },
+  {
+    "id": "1750931000000",
+    "title": "EntropyMath 데이터셋 구축 및 발표, AI 워크숍 개최",
+    "date": "2025-12-12",
+    "summary": "2025년 12월 12일에 서강대학교에서 생성형 AI와 수학문제 해결 및 생성 워크숍이 개최되었다. 해당 워크숍에서 김건휘 연구원이 직접 만든 수학문제들 중 일부를 EntropyMath 데이터로 공개하였다. 해당 프로젝트에서는 AI와 소프트컴퓨팅 기반의 수학문제 생성과 검증을 맡고 있다.",
+    "image": "/2025_12_12_1.jpg",
+    "content": "<img src=\"/2025_12_12_1.jpg\">\n<p>2025년 12월 12일에 서강대학교에서 생성형 AI와 수학문제 해결 및 생성 워크숍이 개최되었다. 해당 워크숍에서 김건휘 연구원이 직접 만든 수학문제들 중 일부를 EntropyMath 데이터로 공개하였다. 해당 프로젝트에서는 AI와 소프트컴퓨팅 기반의 수학문제 생성과 검증을 맡고 있다.</p>\n<p>관련 기사: <a href=\"https://www.dongascience.com/ko/news.php?idx=75545\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.dongascience.com/ko/news.php?idx=75545</a></p>",
+    "sourceUrl": ""
   }
 ]
