@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 
+// Force reload
 const Hero = () => {
   return (
     <section className="min-h-screen py-20 pt-24 bg-gradient-to-b from-gray-50 to-white">
@@ -96,7 +97,7 @@ const Hero = () => {
                   <ul className="ml-5 mt-2 list-disc space-y-3">
                     <li>
                       <p className="font-medium">"Solving Sudoku through Structure-Inference and Genetic Algorithms"</p>
-                      <p className="text-sm text-gray-500">(KSIAM) Korean Society for Industrial and Applied Mathematics, May 16, 2025</p>
+                      <p className="text-sm text-gray-500">(KSIAM) Korean Society for Industrial and Applied Mathematics, June 16, 2025</p>
                     </li>
                     <li>
                       <p className="font-medium">"Utilizing RAG-Based LLMs for Real-Time Voice Phishing Detection"</p>
@@ -105,6 +106,10 @@ const Hero = () => {
                     <li>
                       <p className="font-medium">"LLM-Based Methodology for Predicting Water Levels of the Gamcheon River"</p>
                       <p className="text-sm text-gray-500">(KIIS) Korean Institute of Intelligent Systems, April 25, 2025</p>
+                    </li>
+                    <li>
+                      <p className="font-medium">"High-dimensional Time Series Classification Based on Similarity Measure"</p>
+                      <p className="text-xs text-gray-500">BK21 Annual Research Symposium, Department of Mathematics, Sogang University, April 17, 2025</p>
                     </li>
                     <li>
                       <p className="font-medium">"Invited Talk: Introducing the Model Context Protocol and Its Practical Use in Economic Research"</p>
@@ -133,44 +138,58 @@ const Hero = () => {
               <ul className="space-y-6 text-gray-600">
                 <li>
                   <p className="font-semibold text-lg">Graduate</p>
-                  <ul className="ml-5 mt-2 list-disc space-y-2">
+                  <ul className="ml-5 mt-2 list-disc space-y-3">
                     <li>
-                      BK21 Scholarship Recipient, Department of Mathematics, Sogang University (Mar. 2025 – Present)
+                      <p className="font-medium">BK21 Scholarship Recipient, Department of Mathematics, Sogang University</p>
+                      <p className="text-sm text-gray-500">Mar. 2025 ~ Present</p>
                     </li>
                     <li>
-                      Best Paper Award, Korean Institute of Intelligent Systems, Fall 2024 KIIS Conference – <i>Analyzing the Limitations of Cosine Similarity for High-Dimensional Data and Evaluating DIEM</i> (Poster Session)
+                      <p className="font-medium">Best Paper Award, Korean Institute of Intelligent Systems, Fall 2024 KIIS Conference</p>
+                      <p className="text-sm text-gray-500">– <i>Analyzing the Limitations of Cosine Similarity for High-Dimensional Data and Evaluating DIEM</i></p>
+                      <p className="text-xs text-gray-500">October 2024</p>
                     </li>
                     <li>
-                      Best Paper Award, Korean Institute of Intelligent Systems, Spring 2025 KIIS Conference – <i>Utilizing RAG-Based LLMs for Real-Time Voice Phishing Detection</i> (Poster Session)
+                      <p className="font-medium">Best Paper Award, Korean Institute of Intelligent Systems, Spring 2025 KIIS Conference</p>
+                      <p className="text-sm text-gray-500">– <i>Utilizing RAG-Based LLMs for Real-Time Voice Phishing Detection</i></p>
+                      <p className="text-xs text-gray-500">April 2025</p>
                     </li>
                     <li>
-                      Best Paper Award, Korean Institute of Intelligent Systems, Spring 2025 KIIS Conference – <i>LLM-Based Methodology for Predicting Water Levels of the Gamcheon River</i>
+                      <p className="font-medium">Best Paper Award, Korean Institute of Intelligent Systems, Spring 2025 KIIS Conference</p>
+                      <p className="text-sm text-gray-500">– <i>LLM-Based Methodology for Predicting Water Levels of the Gamcheon River</i></p>
+                      <p className="text-xs text-gray-500">April 2025</p>
                     </li>
                   </ul>
                 </li>
                 <li>
                   <p className="font-semibold text-lg">Undergraduate</p>
-                  <ul className="ml-5 mt-2 list-disc space-y-2">
+                  <ul className="ml-5 mt-2 list-disc space-y-3">
                     <li>
-                      National Assembly Commendation for Academic Excellence, Award No. 2024-069 (2024)
+                      <p className="font-medium">National Assembly Commendation for Academic Excellence, Award No. 2024-069</p>
+                      <p className="text-sm text-gray-500">Feb 2024</p>
                     </li>
                     <li>
-                      Academic Excellence Scholarship, Incheon National University (Fall 2023)
+                      <p className="font-medium">Academic Excellence Scholarship, Incheon National University</p>
+                      <p className="text-sm text-gray-500">Fall 2023</p>
                     </li>
                     <li>
-                      Highest Academic Distinction Scholarship, Incheon National University (Spring 2023, Fall 2022, Spring 2022, Fall 2021, Spring 2021)
+                      <p className="font-medium">Highest Academic Distinction Scholarship, Incheon National University</p>
+                      <p className="text-sm text-gray-500">Spring 2023, Fall 2022, Spring 2022, Fall 2021, Spring 2021</p>
                     </li>
                     <li>
-                      INU Development Fund Scholarship, Incheon National University (Spring 2022)
+                      <p className="font-medium">INU Development Fund Scholarship, Incheon National University</p>
+                      <p className="text-sm text-gray-500">Spring 2022</p>
                     </li>
                     <li>
-                      College of Natural Sciences Scholarship, Incheon National University (Fall 2021)
+                      <p className="font-medium">College of Natural Sciences Scholarship, Incheon National University</p>
+                      <p className="text-sm text-gray-500">Fall 2021</p>
                     </li>
                     <li>
-                      Startup Scholarship, Incheon National University Startup Support Center (2018)
+                      <p className="font-medium">Startup Scholarship, Incheon National University Startup Support Center</p>
+                      <p className="text-sm text-gray-500">July 2018</p>
                     </li>
                     <li>
-                      President, University Startup Club, Incheon National University Startup Support Center (Mar. 2018 – Dec. 2018)
+                      <p className="font-medium">President, University Startup Club, Incheon National University Startup Support Center</p>
+                      <p className="text-sm text-gray-500">Mar 2018 – Dec 2018</p>
                     </li>
                   </ul>
                 </li>
@@ -229,7 +248,10 @@ const Hero = () => {
                         <p>Tue/Thu</p>
                         <p>12:00-13:15</p>
                       </td>
-                      <td className="px-4 py-2"></td>
+                      <td className="px-4 py-2">
+                        <p>Room</p>
+                        <p>RA408</p>
+                      </td>
                     </tr>
                     <tr className="bg-gray-50">
                       <td className="px-4 py-2">
