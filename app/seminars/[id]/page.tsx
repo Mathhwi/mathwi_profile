@@ -5,13 +5,18 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 
+interface PdfFile {
+  title: string;
+  url: string;
+}
+
 interface Seminar {
   title: string;
   date: string;
   content: string;
   image: string;
   sourceUrl?: string;
-  pdfUrl?: string;
+  pdfUrl?: PdfFile[];
 }
 
 const SeminarDetailPage = () => {
@@ -58,15 +63,25 @@ const SeminarDetailPage = () => {
           dangerouslySetInnerHTML={{ __html: seminar.content }} 
         />
 
-        {seminar.pdfUrl && (
+        {seminar.pdfUrl && seminar.pdfUrl.length > 0 && (
           <div className="mt-8">
             <h2 className="text-2xl font-bold mb-3">발표 자료</h2>
-            <a href={seminar.pdfUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-blue-500 hover:underline">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-              </svg>
-              <span>PDF 다운로드</span>
-            </a>
+            <div className="flex flex-col gap-2">
+              {seminar.pdfUrl.map((pdf, index) => (
+                <a 
+                  key={index}
+                  href={pdf.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center gap-2 text-blue-500 hover:underline"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  </svg>
+                  <span>{pdf.title}</span>
+                </a>
+              ))}
+            </div>
           </div>
         )}
 
